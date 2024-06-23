@@ -1,0 +1,105 @@
+@media (max-width: 1100px){
+    
+    .header__container--links{
+        margin-right: 0!important;
+    }
+
+    .header__container--social{
+        flex-direction: column;
+
+        & .header__container--social--content{
+
+            & .header__social--gmail{
+                margin-right: 0!important;
+            }
+        }
+
+    }
+
+    main{
+
+        & .aboutUS{
+            padding: 0 5px;
+            grid-template-columns: 1fr 1fr!important;
+            grid-template-rows: 1fr 1fr!important;
+            gap: 30px;
+
+            & .aboutUS__container{
+                max-width: 354px!important;
+            }
+        }
+    }
+}
+@media (max-width: 1200px) {
+    .cards {
+        grid-template-columns: 1fr 1fr !important;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr !important;
+
+        & .cards__container {
+            max-width: 354px !important;
+        }
+    }
+}
+
+@media (max-width: 725px) {
+    .cards {
+        grid-template-columns: 1fr !important;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr !important;
+
+        & .cards__container {
+            max-width: 450px !important;
+
+            & .cards__img--1 {
+                background-image: url(./adaptive-img/portfolio-adaptive-1.png) !important;
+            }
+
+            & .cards__img--2 {
+                background-image: url(./adaptive-img/portfolio-adaptive-2.png) !important;
+            }
+
+            & .cards__img--3 {
+                background-image: url(./adaptive-img/portfolio-adaptive-3.png) !important;
+            }
+
+            & .cards__img--4 {
+                background-image: url(./adaptive-img/portfolio-adaptive-4.png) !important;
+            }
+
+            & .cards__img--5 {
+                background-image: url(./adaptive-img/portfolio-adaptive-5.png) !important;
+            }
+
+            & .cards__img--6 {
+                background-image: url(./adaptive-img/portfolio-adaptive-6.png) !important;
+            }
+
+            & .cards__img--7 {
+                background-image: url(./adaptive-img/portfolio-adaptive-7.png) !important;
+            }
+
+            & .cards__img--8 {
+                background-image: url(./adaptive-img/portfolio-adaptive-8.png) !important;
+            }
+
+            & .cards__img--9 {
+                background-image: url(./adaptive-img/portfolio-adaptive-9.png) !important;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 580px) {
+
+    .portfolio {
+        max-width: 326px !important;
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+        padding-left: 15px;
+        gap: 15px;
+        margin: 0 !important;
+        padding-top: 60px;
+
+    }
+
+}
